@@ -1,0 +1,239 @@
+.header {
+  &-menu {
+    margin-left: 3%;
+  }
+
+  &-navigation {
+    box-sizing: border-box;
+    display: flex;
+    padding: 40px 8.5%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    background: $color-white;
+    margin-top: 115px;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  &-logo {
+    flex-basis: 50%;
+
+    &>img {
+      margin: 0 auto;
+    }
+  }
+
+  &__input-search {
+    display: block;
+    padding: 3px 0px 3px 15px;
+    text-align: center;
+
+  }
+
+  &-form {
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  &__fa-search {
+    position: absolute;
+    color: #959595;
+    top: 5px;
+    left: 10px;
+  }
+
+  &-icon__list {
+    display: flex;
+    width: 70%;
+
+
+    &-icon__item {
+      margin-left: 10px;
+
+
+      &:hover a {
+        color: #959595;
+
+      }
+    }
+  }
+
+  &__logo-img {
+    margin: 0px;
+  }
+
+  &__wrapper-flex {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 5%;
+  }
+}
+
+.menu {
+  z-index: 3;
+  width: 100%;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &>ul li {
+    position: relative;
+  }
+
+  &>ul li a {
+    display: block;
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+
+  & li a:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease;
+  }
+
+  & li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+  }
+
+  & li>ul li a {
+    padding: 10px;
+    text-transform: uppercase;
+    background: rgba(236, 236, 236, 0.4);
+    opacity: 0.6;
+  }
+
+  & li>ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+  }
+
+  & li:hover>ul {
+    display: block;
+    width: 100%;
+  }
+
+  & [type="checkbox"],
+  & label.toggleSubmenu {
+    display: none;
+  }
+
+  & label.toggleMenu {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+@media (max-width: 1330px) and (min-width: 720px) {
+  .menu>ul li a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .header-navigation {
+    margin-top: 0px;
+  }
+
+  .menu>ul li a {
+    font-size: 12px;
+  }
+
+  .header-logo,
+  .header-logo>.logo {
+    display: none;
+  }
+
+  .menu {
+    overflow: hidden;
+  }
+
+  .menu ul {
+    display: block;
+    max-height: 0;
+    transition: max-height 0.3s;
+  }
+
+  .menu li:hover>ul {
+    display: none;
+
+  }
+
+  .menu li>ul li ul {
+    position: absolute;
+    right: auto;
+    top: auto;
+  }
+
+  .menu label.toggleMenu {
+    padding: 5px;
+    display: block;
+  }
+
+  input.toggleMenu:checked+label.toggleMenu {
+    background: #959595;
+    color: #fff;
+  }
+
+  input.toggleMenu:checked~ul,
+  input.toggleSubmenu:checked~ul {
+    display: block;
+    position: relative;
+    max-height: 5000px;
+    transition: max-height 2s ease-in;
+  }
+
+  .menu label.toggleSubmenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  input.toggleSubmenu:checked~a {
+    background: #454547;
+    color: #fff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .menu label.toggleSubmenu .fa:before {
+    content: "\f0d7";
+    color: #454547;
+  }
+
+  .menu label.toggleSubmenu .fa {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+  }
+
+  .menu input.toggleSubmenu:checked~label.toggleSubmenu .fa::before {
+    content: "\f0d8";
+    color: #ffffff;
+  }
+}

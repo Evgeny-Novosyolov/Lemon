@@ -1,0 +1,49 @@
+@media screen and (min-width: 1100px) {
+  .container {
+    width: 78%;
+    margin-bottom: 80px;
+  }
+  .footer-container{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .container {
+    width: 85%;
+    margin-bottom: 80px;
+  }
+  .footer-container{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+  .footer-container{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer-container{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .footer-container{
+    margin-bottom: 0;
+  }
+}

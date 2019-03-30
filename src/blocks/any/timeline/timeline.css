@@ -1,0 +1,117 @@
+.timeline__block {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.timeline__wrapper {
+  padding-top: 0.1px;
+  padding-bottom: 45px;
+}
+
+.timeline__header {
+  margin: 25px 5% 7px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.timeline__transfer {
+  color: #ddd;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.timeline__title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.graph {
+  width: 80%;
+  margin: 15px auto;
+  margin-top: 15px;
+}
+
+.graph__caption {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #055555;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.graph__title {
+  color: #959595;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.graph__block {
+  margin: 0px 0px 30px 35px;
+  width: 90%;
+  height: 200px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.graph__title {
+  font-size: 18px;
+  color: #959595;
+  font-weight: normal;
+}
+
+.graph__line::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 10px;
+  background: #87d0c5;
+}
+
+.graph__line--middle::before {
+  background: #0d5959;
+  width: 100px;
+}
+
+.graph__line--long::before {
+  background: #b50051;
+  width: 130px;
+}
+
+.graph__min {
+  color: #555;
+  font-size: 14px;
+  font-family: 'Open Sans Light', arial;
+}
+
+.graph__transfer {
+  width: 85%;
+  margin: 10px 0 10px auto;
+}
+
+.graph__text {
+  width: 90%;
+  text-align: right;
+  margin-left: auto;
+  font-size: 16px;
+  color: #959595;
+}
+/*# sourceMappingURL=timeline.css.map */

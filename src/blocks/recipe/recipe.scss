@@ -1,0 +1,266 @@
+.recipe {
+  &__block {
+    display: flex;
+    background: $color-white;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  &__box--left {
+    background-image: url('../images/section2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 46%;
+    position: relative;
+  }
+
+  &__box--right {
+
+    flex-basis: 47%;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    // &::-webkit-scrollbar { width: 3px; height: 3px;}
+    // // &::-webkit-scrollbar-button {  background-color: #666; }
+    // &::-webkit-scrollbar-track {  background-color: #999;}
+    // &::-webkit-scrollbar-track-piece { background-color: #dddddd;}
+    // &::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+    // // &::-webkit-scrollbar-corner { background-color: #999;}
+    // // &::-webkit-resizer { background-color: #666;}
+
+  }
+
+  &__title {
+    color: $color-green;
+    font-size: 32px;
+    @include font-PD;
+    font-weight: 900;
+    margin-bottom: 25px;
+  }
+
+  &__element {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin-bottom: 30px;
+    align-items: baseline;
+  }
+
+  &__button {
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin: 15px 0;
+    padding-bottom: 10px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    span {
+      font-size: 22px;
+      vertical-align: sub;
+    }
+  }
+
+  &__box--right h4 {
+    @include font-PD;
+    font-weight: 900;
+  }
+
+  &-icon {
+    flex-basis: 50%;
+  }
+
+  &-icon__item--left {
+    position: absolute;
+    top: 0%;
+    left: 86%;
+    display: block;
+    height: 60px;
+    width: 50px;
+    background: rgba(166, 166, 166, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__file--left {
+    color: #fff;
+  }
+
+  &-icon__list {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &-icon__item {
+    margin-right: 2%;
+  }
+
+}
+
+
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+.scroll-pane {
+  overflow-y: scroll;
+  // scroll-behavior: smooth;
+  width: 100% !important;
+  height: 250px;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.jspContainer {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+
+}
+
+.jspPane {
+  position: absolute;
+  width: 90% !important;
+  // max-height: 350%;
+}
+
+.jspVerticalBar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 16px;
+  height: 110%;
+  background: hidden;
+  /* display: none; */
+}
+
+
+
+.jspVerticalBar *,
+.jspHorizontalBar * {
+  margin: 0;
+  padding: 0;
+}
+
+.jspCap {
+  display: none;
+}
+
+.jspHorizontalBar .jspCap {
+  float: left;
+}
+
+.jspTrack {
+  background: #dddddd;
+  position: relative;
+  width: 4px;
+}
+
+.jspDrag {
+  background: #555555;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+/* 
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+} */
+
+/* .jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+} */
+
+/* .jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+} */
+/* 
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+} */
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner {
+  margin: 0 -3px 0 0;
+}
+
+
+@media screen and (max-width: 600px) {
+  .recipe {
+    &__block {
+     box-shadow: none;
+    }
+
+    &__box--left {
+      display: none;
+    }
+
+    &__box--right {
+
+      flex-basis: 100%;
+      padding-top: 20px;
+      padding-left: 35px;
+      padding-right: 0;
+      padding-bottom: 20px;
+      // &::-webkit-scrollbar { width: 3px; height: 3px;}
+      // // &::-webkit-scrollbar-button {  background-color: #666; }
+      // &::-webkit-scrollbar-track {  background-color: #999;}
+      // &::-webkit-scrollbar-track-piece { background-color: #dddddd;}
+      // &::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+      // // &::-webkit-scrollbar-corner { background-color: #999;}
+      // // &::-webkit-resizer { background-color: #666;}
+
+    }
+
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .recipe {
+    display: none;
+  }
+}

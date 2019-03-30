@@ -1,0 +1,116 @@
+.range__block {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.range__wrapper {
+  padding-top: 0.1px;
+  padding-bottom: 45px;
+}
+
+.range__header {
+  margin: 25px 5% 7px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.range__transfer {
+  color: #ddd;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.range__caption {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.range__main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.range__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  margin: 10px auto 20px;
+}
+
+.range__link {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #959595;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.range__link:hover, .range__link:focus {
+  color: #000;
+}
+
+.range__module {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.range__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.range__box:hover {
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.range__info {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+}
+
+.range__img a {
+  text-decoration: none;
+}
+
+.range__title {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.range__title span {
+  color: #959595;
+  font-weight: normal;
+}
+
+.range__text {
+  font-size: 16px;
+}
+
+.range__button {
+  float: right;
+  margin-right: 5%;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=range.css.map */

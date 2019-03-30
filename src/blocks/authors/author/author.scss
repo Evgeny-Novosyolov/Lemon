@@ -1,0 +1,116 @@
+.author {
+    max-width: 520px;
+    box-sizing: border-box;
+    flex-basis: 46%;
+    background: $color-white;
+    padding: 20px 45px 35px 30px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  
+
+  // &-wrapper{
+  //   display: flex;
+  // }
+  &__info {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  &__contact {
+    margin-left: 3%;
+    // margin-right: auto;
+    flex-basis: 80%;
+    padding-bottom: 15px;
+  }
+
+  &__span {
+    display: block;
+    font-size: 22px;
+    margin-top: 4px;
+
+  }
+
+  &__transfer {
+    margin-top: 8px;
+    color: #ddd;
+
+    &--center {
+      margin-top: 10px;
+    }
+  }
+
+  &__info {
+    justify-content: space-between;
+  }
+
+  &__photo img {
+    display: block;
+    widows: 100%;
+  }
+
+  &__post {
+    flex-basis: 67%;
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  &__comment {
+    margin-left: auto;
+    width: 67%;
+  }
+
+  &_text {
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  &__autograph {
+    margin-top: 10px;
+
+    img {
+      display: block;
+      margin-left: auto;
+    }
+  }
+
+  &-icon__list {
+    display: flex;
+
+    i {
+      color: #959595;
+      font-size: 18px;
+    }
+  }
+
+  &-icon__item {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .author{
+    &__comment {
+      margin-left: auto;
+      width: 100%;
+    }
+  }
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  .author {
+       display: none;
+    
+  }
+}

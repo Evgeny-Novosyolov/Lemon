@@ -1,0 +1,72 @@
+.chichi__block {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.chichi__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.chichi_title {
+  font-family: 'Playfair Display', serif;
+  font-size: 23px;
+  color: #055555;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px 0 14px 0;
+}
+
+.chichi__transfer {
+  color: #ddd;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.chichi__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 15px;
+  padding: 0px 5%;
+}
+
+.chichi__photo {
+  margin-right: 5%;
+}
+
+.chichi__span2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.chichi__gallary img {
+  display: block;
+  width: 100%;
+}
+
+.chichi-icon {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #777777;
+  font-weight: bold;
+}
+
+.chichi-icon__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chichi-icon__item {
+  padding: 1%;
+}
+/*# sourceMappingURL=chichi.css.map */

@@ -1,0 +1,129 @@
+.registration {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.registration__wrapper {
+  padding-top: 0.1px;
+  padding-bottom: 25px;
+}
+
+.registration__header {
+  margin: 25px 9% 7px 9%;
+}
+
+.registration__transfer {
+  color: #ddd;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.registration__title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.registration-form {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.registration-form__title {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.registration-form__item {
+  border: 1px solid #959595;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.registration-form__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border: none;
+}
+
+.registration-form__input:focus {
+  -webkit-box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.registration-form__button {
+  margin: 30px auto 0;
+  display: block;
+  text-transform: uppercase;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.registration__registration {
+  margin: 60px auto 0px;
+  font-style: italic;
+  text-align: center;
+}
+
+.registration__text {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.registration__text p {
+  margin: 10px auto 0px;
+}
+
+.registration__text a {
+  text-decoration: underline;
+  color: #9aa4e9;
+}
+
+.registration__text span {
+  display: block;
+  margin-top: 20px;
+}
+
+.login__icon {
+  margin-top: 20px;
+}
+
+.login__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login__item {
+  margin-right: 10px;
+}
+
+.login__item:last-child {
+  margin-right: 0;
+}
+
+.login__registration {
+  margin: 10px auto 0px;
+  font-style: italic;
+  text-align: center;
+}
+/*# sourceMappingURL=registration.css.map */

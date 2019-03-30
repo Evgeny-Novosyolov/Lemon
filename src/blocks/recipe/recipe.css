@@ -1,0 +1,130 @@
+.recipe-container {
+  background: #f7f7f7;
+  margin-bottom: 140px;
+}
+
+.recipe__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recipe__box--left {
+  background-image: url("../../src/img/section2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-flex-preferred-size: 46%;
+      flex-basis: 46%;
+  position: relative;
+}
+
+.recipe__box--right {
+  -ms-flex-preferred-size: 47%;
+      flex-basis: 47%;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+
+.scroll-pane {
+  overflow-y: scroll;
+  width: 500px;
+  height: 250px;
+}
+
+.scroll-pane span {
+  font-weight: bold;
+}
+
+.recipe__title {
+  color: #055555;
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.recipe__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 50px;
+  margin-bottom: 30px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.button__recipe {
+  text-transform: uppercase;
+}
+
+.recipe__text {
+  margin: 15px 0;
+  padding-bottom: 10px;
+}
+
+.recipe__text:first-child {
+  margin-top: 0;
+}
+
+.recipe__text span {
+  font-size: 22px;
+  vertical-align: sub;
+}
+
+.recipe__box--right h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+.recipe-icon {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.recipe-icon__item--left {
+  position: absolute;
+  top: 0%;
+  left: 86%;
+  display: block;
+  height: 60px;
+  width: 50px;
+  background: rgba(166, 166, 166, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipe-icon__item--left:hover {
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.recipe__file--left {
+  color: #fff;
+}
+
+.recipe-icon__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.recipe-icon__item {
+  margin-right: 2%;
+}
+/*# sourceMappingURL=recipe.css.map */

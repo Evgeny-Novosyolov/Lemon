@@ -1,0 +1,144 @@
+.comment {
+  background: $color-white;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+
+  &__wrapper {
+    padding-top: 0.1px;
+    padding-bottom: 25px;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  &__header {
+    margin: 25px 0px 7px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+
+  &__transfer {
+    color: #ddd;
+    margin: 0 auto;
+    display: none;
+  }
+
+
+  &__title {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+
+  &__block {
+    border-bottom: 2px solid #eaeaea;
+  }
+
+  &-element {
+    display: flex;
+    padding-top: 30px;
+    border-top: 2px solid #eaeaea;
+    justify-content: space-between;
+    font-size: 14px;
+
+  }
+
+
+  &__list {
+    margin-top: 20px;
+  }
+
+  &-element__block {
+    margin-bottom: 20px;
+    // border-top: 2px solid #eaeaea;
+  }
+
+  &-element__autho {
+    margin-right: 5%;
+  }
+
+  &-element__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-element__wrapper {
+    flex-basis: 90%;
+  }
+
+  &-element__list {
+    margin-bottom: 10px;
+  }
+
+  &-element__info {
+    line-height: 18px;
+
+  }
+
+  &-element__span--lvl2,
+  &-element__span--lvl4 {
+
+    font-weight: 700;
+  }
+
+  &-element__span--lvl3,
+  &-element__info a {
+    color: #629494;
+    font-weight: normal;
+  }
+
+
+  &-element__main {
+    width: 100%;
+
+  }
+
+  &-element__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5%;
+  }
+
+  &-element__main textarea {
+    resize: vertical;
+    width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 1px solid #959595;
+    padding: 1%;
+    margin-bottom: 10px;
+
+    &:focus {
+      box-shadow: inset 0 0 7px rgba(0, 0, 0, .5);
+      transition: 0.5s
+    }
+  }
+
+  .input-search__post {
+    padding-left: 20%;
+    height: 40px;
+    width: 100%;
+    margin-left: auto;
+  }
+
+  &-element__button {
+    margin-left: auto;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  &-icon__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &-icon__item {
+    margin-left: 10px;
+  }
+}
