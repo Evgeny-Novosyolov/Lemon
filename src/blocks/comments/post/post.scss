@@ -43,14 +43,14 @@
     align-items: flex-end;
   }
 
-  .form-search__post {
+  &-form {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-right: 5%;
   }
 
-  .input-search__post {
+  &-input {
     padding-left: 20%;
     height: 40px;
     width: 85%;
