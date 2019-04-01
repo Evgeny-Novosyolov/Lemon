@@ -11,6 +11,10 @@
   <link type="text/css" rel="stylesheet" href="src/css/scroll/scroll.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
     integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css" />
   <link rel="stylesheet" href="css/style.css">
   <title>Lemon</title>
 </head>
@@ -148,16 +152,42 @@
 		</header>
 		<section class="carousel">
 			<div class="container carousel-container">
-				<div class="carousel__block">
-				  <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
-				  <div class="carousel__box">
-				    <img class="logo carousel-logo" src="images/Logo.png" alt="">
-				    <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
-				    <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
-				      desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
-				      cream cake.
-				    </p>
-				    <button class="button carousel__button">GET IT RECIPE</button>
+				<div class="carusel__list" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+				  <div class="carousel__block">
+				    <div class="carousel__box">
+				      <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
+				      <img class="logo carousel-logo" src="images/Logo.png" alt="">
+				      <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
+				      <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
+				        desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
+				        cream cake.
+				      </p>
+				      <button class="button carousel__button">GET IT RECIPE</button>
+				    </div>
+				  </div>
+				  <div class="carousel__block">
+				    <div class="carousel__box">
+				      <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
+				      <img class="logo carousel-logo" src="images/Logo.png" alt="">
+				      <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
+				      <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
+				        desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
+				        cream cake.
+				      </p>
+				      <button class="button carousel__button">GET IT RECIPE</button>
+				    </div>
+				  </div>
+				  <div class="carousel__block">
+				    <div class="carousel__box">
+				      <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
+				      <img class="logo carousel-logo" src="images/Logo.png" alt="">
+				      <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
+				      <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
+				        desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
+				        cream cake.
+				      </p>
+				      <button class="button carousel__button">GET IT RECIPE</button>
+				    </div>
 				  </div>
 				</div>
 			</div>
@@ -934,6 +964,7 @@
 	</div>
 
 	  <script type="text/javascript" src="js/all.js"></script>
+	  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
 </body>
 
 </html>
