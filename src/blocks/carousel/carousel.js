@@ -26,28 +26,28 @@ window.onload = function() {
 
 
 
-  var btn_prev = document.querySelector('.chichi__buttons .chichi__prev');
-  var btn_next = document.querySelector('.chichi__buttons .chichi__next');
+  var btnPrev_chi= document.querySelector('.chichi__buttons .chichi__prev');
+  var btnNext_chi = document.querySelector('.chichi__buttons .chichi__next');
   
-  var div = document.querySelectorAll('.chichi__list > li');
-  var i = 0;
+  var li = document.querySelectorAll('.chichi__list > li');
+      i = 0;
   
-   btn_prev.onclick = function(){
-    div[i].className='none';
+  btnPrev_chi.onclick = function(){
+    li[i].className='none';
     i--;
     if(i<0){
-      i = div.length-1;
+      i = li.length-1;
     }
-    div[i].className='div-open__chichi';
+    li[i].className='div-open__chichi';
   };
   
-  btn_next.onclick = function(){
-    div[i].className='none';
+  btnNext_chi.onclick = function(){
+    li[i].className='none';
     i++;
-     if(i>=div.length){
+     if(i>=li.length){
       i = 0;
     }
-    div[i].className='div-open__chichi';
+    li[i].className='div-open__chichi';
   };
 
 
