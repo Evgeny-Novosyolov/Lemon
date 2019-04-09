@@ -25,6 +25,22 @@
     margin: 0 auto;
   }
 
+  &__main {
+    position: relative;
+  }
+
+  &__list {
+    position: relative;
+
+    &>li {
+      margin: 0 auto;
+      position: absolute;
+      opacity: 0;
+      transition: 1s;
+      display: none;
+    }
+  }
+
   &__info {
     display: flex;
     box-sizing: border-box;
@@ -59,5 +75,30 @@
 
   &-icon__item {
     padding: 1%;
+  }
+
+  &__buttons {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+  }
+  &__prev,
+  &__next {
+      background: #fff;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: none;
+  
+      &:hover {
+        background: #959595;
+      }
+    }
+
+  .div-open__chichi {
+    opacity: 1;
+    display: block;
+    position: relative;
   }
 }

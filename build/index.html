@@ -11,11 +11,7 @@
   <link type="text/css" rel="stylesheet" href="src/css/scroll/scroll.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
     integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
-  <!-- Add the slick-theme.css if you want default styling -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" />
-  <!-- Add the slick-theme.css if you want default styling -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css" />
-  <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.css">
   <title>Lemon</title>
 </head>
 
@@ -152,42 +148,54 @@
 		</header>
 		<section class="carousel">
 			<div class="container carousel-container">
-				<div class="carusel__list" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-				  <div class="carousel__block">
-				    <div class="carousel__box">
-				      <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
-				      <img class="logo carousel-logo" src="images/Logo.png" alt="">
-				      <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
-				      <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
-				        desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
-				        cream cake.
-				      </p>
-				      <button class="button carousel__button">GET IT RECIPE</button>
-				    </div>
-				  </div>
-				  <div class="carousel__block">
-				    <div class="carousel__box">
-				      <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
-				      <img class="logo carousel-logo" src="images/Logo.png" alt="">
-				      <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
-				      <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
-				        desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
-				        cream cake.
-				      </p>
-				      <button class="button carousel__button">GET IT RECIPE</button>
-				    </div>
-				  </div>
-				  <div class="carousel__block">
-				    <div class="carousel__box">
-				      <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
-				      <img class="logo carousel-logo" src="images/Logo.png" alt="">
-				      <h2 class="carousel__title">Bananas Foster Ice Cream Cake</h2>
-				      <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
-				        desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
-				        cream cake.
-				      </p>
-				      <button class="button carousel__button">GET IT RECIPE</button>
-				    </div>
+				<div id="gallery">
+				  <ul class="carusel__list">
+				    <li class="div-open">
+				      <div class="carousel__block">
+				        <div class="carousel__box">
+				          <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
+				          <img class="logo carousel-logo" src="images/Logo.png" alt="">
+				          <h2 class="carousel__title">Bananas Foster Ice Cream Cake1</h2>
+				          <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
+				            desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
+				            cream cake.
+				          </p>
+				          <button class="button carousel__button">GET IT RECIPE</button>
+				        </div>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="carousel__block">
+				        <div class="carousel__box">
+				          <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
+				          <img class="logo carousel-logo" src="images/Logo.png" alt="">
+				          <h2 class="carousel__title">Bananas Foster Ice Cream Cake2</h2>
+				          <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
+				            desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
+				            cream cake.
+				          </p>
+				          <button class="button carousel__button">GET IT RECIPE</button>
+				        </div>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="carousel__block">
+				        <div class="carousel__box">
+				          <div class="carousel__bg"><img src="images/var-2.png" alt=""></div>
+				          <img class="logo carousel-logo" src="images/Logo.png" alt="">
+				          <h2 class="carousel__title">Bananas Foster Ice Cream Cake3</h2>
+				          <p class="carousel__text">If you're looking for decadence, look no further — you've found the Holy Grail of
+				            desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice
+				            cream cake.
+				          </p>
+				          <button class="button carousel__button">GET IT RECIPE</button>
+				        </div>
+				      </div>
+				    </li>
+				  </ul>
+				  <div class="carousel__buttons">
+				    <input type="button" value="" class="carousel__prev">
+				    <input type="button" value="" class="carousel__next">
 				  </div>
 				</div>
 			</div>
@@ -340,21 +348,65 @@
 						      <hr class="chichi__transfer">
 						    </div>
 						    <div class="chichi__main">
-						      <div class="chichi__info">
-						        <div class="chichi__photo"><img src="images/author2.png" alt=""></div>
-						        <div class="chichi__text">
-						          <span class="chichi__span1">Recipe by</span><br>
-						          <span class="chichi__span2">Smuckersreg Toppings</span>
-						          <div class="chichi-icon">
-						            <ul class="chichi-icon__list">
-						              <li class="chichi-icon__item"><i class="far fa-clock"></i><span>35mins |</span></li>
-						              <li class="chichi-icon__item"><i class="far fa-comment"></i><span>7</span></li>
-						              <li class="chichi-icon__item"><i class="far fa-eye"></i><span>14</span></li>
-						            </ul>
+						      <ul class="chichi__list">
+						        <li class="div-open__chichi">
+						          <div class="chichi__info">
+						            <div class="chichi__photo"><img src="images/author2.png" alt=""></div>
+						            <div class="chichi__text">
+						              <span class="chichi__span1">Recipe by</span><br>
+						              <span class="chichi__span2">Smuckersreg Toppings</span>
+						              <div class="chichi-icon">
+						                <ul class="chichi-icon__list">
+						                  <li class="chichi-icon__item"><i class="far fa-clock"></i><span>35mins |</span></li>
+						                  <li class="chichi-icon__item"><i class="far fa-comment"></i><span>7</span></li>
+						                  <li class="chichi-icon__item"><i class="far fa-eye"></i><span>14</span></li>
+						                </ul>
+						              </div>
+						            </div>
 						          </div>
-						        </div>
-						      </div>
-						      <div class="chichi__gallary"><img src="images/author3.png" alt="">
+						          <div class="chichi__gallary"><img src="images/author3.png" alt="">
+						          </div>
+						        </li>
+						        <li>
+						          <div class="chichi__info">
+						            <div class="chichi__photo"><img src="images/author.png" alt=""></div>
+						            <div class="chichi__text">
+						              <span class="chichi__span1">Recipe by</span><br>
+						              <span class="chichi__span2">Smuckersreg Toppings</span>
+						              <div class="chichi-icon">
+						                <ul class="chichi-icon__list">
+						                  <li class="chichi-icon__item"><i class="far fa-clock"></i><span>60mins |</span></li>
+						                  <li class="chichi-icon__item"><i class="far fa-comment"></i><span>90</span></li>
+						                  <li class="chichi-icon__item"><i class="far fa-eye"></i><span>50</span></li>
+						                </ul>
+						              </div>
+						            </div>
+						          </div>
+						          <div class="chichi__gallary"><img src="images/author3.png" alt="">
+						          </div>
+						        </li>
+						        <li>
+						          <div class="chichi__info">
+						            <div class="chichi__photo"><img src="images/author2.png" alt=""></div>
+						            <div class="chichi__text">
+						              <span class="chichi__span1">Recipe by</span><br>
+						              <span class="chichi__span2">Smuckersreg Toppings</span>
+						              <div class="chichi-icon">
+						                <ul class="chichi-icon__list">
+						                  <li class="chichi-icon__item"><i class="far fa-clock"></i><span>305mins |</span></li>
+						                  <li class="chichi-icon__item"><i class="far fa-comment"></i><span>7</span></li>
+						                  <li class="chichi-icon__item"><i class="far fa-eye"></i><span>104</span></li>
+						                </ul>
+						              </div>
+						            </div>
+						          </div>
+						          <div class="chichi__gallary"><img src="images/author3.png" alt="">
+						          </div>
+						        </li>
+						      </ul>
+						      <div class="chichi__buttons">
+						        <input type="button" value="" class="chichi__prev">
+						        <input type="button" value="" class="chichi__next">
 						      </div>
 						    </div>
 						  </div>
@@ -964,7 +1016,6 @@
 	</div>
 
 	  <script type="text/javascript" src="js/all.js"></script>
-	  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
 </body>
 
 </html>

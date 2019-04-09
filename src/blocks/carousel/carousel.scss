@@ -50,12 +50,56 @@
     width: 95%;
     margin-bottom: 30px;
   }
-
+  &__buttons {
+    position: absolute;
+    bottom: 6%;
+    left: 93%;
+  }
+  &__prev,
+  &__next {
+      background: #fff;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: none;
+  
+      &:hover {
+        background: #959595;
+      }
+    }
 }
+
+
+#gallery {
+  margin: 0 auto;
+  position: relative;
+}
+
+#gallery .carusel__list {
+  position: relative;
+}
+
+#gallery .carusel__list li {
+  margin: 0 auto;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  display: none;
+}
+
+#gallery .carusel__list .div-open {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+
+
 
 @media screen and (max-width: 1265px) {
   .carousel {
-     &__box {
+    &__box {
       flex-basis: 40%;
     }
   }
@@ -74,14 +118,14 @@
 
 
 @media screen and (max-width: 720px) {
-  .carousel{
+  .carousel {
     &__block {
       box-shadow: none;
     }
-  
+
     &__box {
       flex-basis: 80%;
-  
+
     }
   }
 }
