@@ -5,4 +5,5 @@ import "../../blocks/recipe/scroll";
 import "../../blocks/any/calendar/calendar";
 import "../../blocks/carousel/carousel";
 import "../../blocks/any/range/range";
+import "../../blocks/comments/number/number";
 import "../../blocks/buttonUP/button";
