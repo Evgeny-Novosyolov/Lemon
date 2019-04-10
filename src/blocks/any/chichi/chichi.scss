@@ -73,9 +73,9 @@
     display: flex;
   }
 
-  &-icon__item {
-    padding: 1%;
-  }
+  // &-icon__item {
+  //   padding: 1%;
+  // }
 
   &__buttons {
     position: absolute;
@@ -90,7 +90,7 @@
       height: 15px;
       border-radius: 50%;
       border: none;
-  
+      outline: none;
       &:hover {
         background: #959595;
       }
